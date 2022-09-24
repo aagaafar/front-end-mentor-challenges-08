@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'League Spartan', sans-serif;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(../images/bg-pattern-top-desktop.svg), 
+    url(../images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 68vw bottom 48vh, left 25vw top 15vh;
+
+}
+    
+.container{
+  margin: 0 auto;
+  width: 80%;
+  
+}
+
+.info{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+}
+.descrption{
+   max-width: 400px;
+}
+.descrption .title{
+   
+    font-size: 50px;
+    font-weight: 700;
+    color:  hsl(300, 43%, 22%);
+    margin-bottom: 15px;
+}
+
+.descrption .sub-descrption{
+    font-size: 15px;
+    color: hsl(333, 80%, 67%);
+    line-height: 1.5;
+    font-weight: 500;
+
+}
+.rate{
+    width: 600px;
+   padding: 20px 0;
+  
+}
+    
+.rate-item{
+    width: 400px;
+    display: flex;
+    padding: 20px 25px;
+    background-color: hsl(300, 24%, 96%);
+    margin-bottom: 12px;
+    border-radius: 5px;
+
+}
+.rate-item img {
+    margin-left: 5px;
+    
+}
+.rate-item p{
+    margin-left: 20px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 16px;
+}
+.first{
+
+}
+.second{
+    margin-left: 100px;
+}
+   
+.third{
+   margin-left: 200px;
+}
+
+.profile{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+  
+.profile-item{
+    width: 390px;
+    padding: 30px;
+    background-color:  hsl(300, 43%, 22%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 8px;
+   
+} 
+.header{
+    display: flex;
+    align-items: center;
+}
+.header img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.header .name{
+    margin-left: 25px;
+}
+
+.header .name h2{
+    font-size: 16px;
+    margin-bottom: 3px;
+    font-weight: 700;
+}
+
+.header .name p{
+    color: hsl(303, 10%, 53%);
+}
+
+.profile-descraption{
+    margin-top: 30px;
+    line-height: 1.6;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.Colton{
+    
+    margin-bottom: 20px;
+}
+.Irene{
+   margin-top: 20px; 
+   
+}
+.Anne{
+    margin-top: 40px;
+    margin-bottom: -20px;
+}
+
+@media only screen and (width:425px){
+    
+    .info{
+   flex-direction: column; 
+   justify-content: center;
+
+}
+
+.rate-item{
+    display: flex;
+    flex-direction: column;
+}
+}
+
+
+
+
+
